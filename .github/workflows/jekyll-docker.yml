@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "portfolioUpdates-12-2023" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "portfolioUpdates-12-2023" ]
 
 jobs:
   build:
