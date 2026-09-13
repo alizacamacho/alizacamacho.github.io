@@ -2961,7 +2961,23 @@ input, select, textarea {
 					}
 
 		}
+/* Calendar */
+.calendar-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio; adjust to 75% or 100% for taller calendars */
+    height: 0;
+    overflow: hidden;
+}
 
+.calendar-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}   
 /* Menu */
 
 	#wrapper {
